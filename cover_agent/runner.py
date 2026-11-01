@@ -22,7 +22,7 @@ class Runner:
         try:
             result = subprocess.run(
                 command,
-                shell=True,
+                shell=False,
                 cwd=cwd,
                 text=True,
                 capture_output=True,
